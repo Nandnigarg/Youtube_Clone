@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+header{
+    margin: 1% 0 0 0; 
+}
+
+#search {
+    color: rgb(22, 10, 10);
+    float:right;
+    margin-top: 1%;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+
+.col-lg-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe{
+    width: 280px;
+    height: 280px;
+    padding-right: 20px;
+    margin-left: 40px;
+}
+
+#videos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#button {
+    font-size: 1.3em;
+    color: rgb(255, 0, 0);
+    margin-top: 5px;
+}
