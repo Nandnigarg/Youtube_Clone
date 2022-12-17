@@ -28,7 +28,7 @@ document.querySelector('#signup-db').addEventListener('click', (e) => {
         }
 
         const xhr = new XMLHttpRequest()
-        const url = `http://localhost:5000/youtube/signup`
+        const url = `https://yt-fs.onrender.com/youtube/signup`
         
         xhr.open('POST', url)
         xhr.setRequestHeader('Content-Type', 'application/json')
@@ -64,7 +64,7 @@ document.querySelector('#login-db').addEventListener('click', (e) => {
         }
 
         const xhr = new XMLHttpRequest()
-        const url = `http://localhost:5000/youtube/login`
+        const url = `https://yt-fs.onrender.com/youtube/login`
         
         xhr.open('POST', url)
         xhr.setRequestHeader('Content-Type', 'application/json')
