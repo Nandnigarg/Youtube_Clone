@@ -32,5 +32,5 @@ document.querySelector('#button').addEventListener('click', () => {
 
 document.querySelector('#lobtn').addEventListener('click', (e) => {
     e.preventDefault()
-    window.location.replace('index.html')
+    window.location.replace('../index.html')
 })

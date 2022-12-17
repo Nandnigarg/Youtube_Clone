@@ -5,6 +5,7 @@ const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 
+const homeHandler = require('./api/routes/home')
 const signupHandler = require('./api/routes/signup')
 const loginHandler = require('./api/routes/login')
 
@@ -17,6 +18,7 @@ app.use(bodyParser.json())
 
 app.use(cors())
 
+app.use('/', homeHandler)
 app.use('/youtube/signup', signupHandler)
 app.use('/youtube/login', loginHandler)
 

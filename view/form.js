@@ -73,7 +73,7 @@ document.querySelector('#login-db').addEventListener('click', (e) => {
             if(xhr.status === 200 && xhr.readyState === 4){
                 console.log(xhr.responseText)
                 window.alert('Login Successfully!')
-                window.location.replace('page.html')
+                window.location.replace('view/page.html')
             } 
             else if(xhr.status === 404 && xhr.readyState === 4){
                 console.log(xhr.responseText)
