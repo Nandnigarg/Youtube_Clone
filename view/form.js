@@ -37,6 +37,7 @@ document.querySelector('#signup-db').addEventListener('click', (e) => {
             if(xhr.status === 201 && xhr.readyState === 4){
                 console.log(xhr.responseText)
                 window.alert('Sign Up Successful! Please login to continue.')
+                window.location.reload()
             } 
 
             else if(xhr.status === 400 && xhr.readyState === 4){

@@ -3,6 +3,7 @@ body{
     padding: 0;
     background-color: black;
     color: white;
+    overflow-x: hidden;
 }
 
 header{
@@ -24,10 +25,10 @@ header{
 }
 
 iframe{
-    width: 280px;
-    height: 280px;
-    padding-right: 20px;
-    margin-left: 40px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20%;
+    
 }
 
 #videos {
